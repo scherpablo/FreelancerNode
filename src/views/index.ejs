@@ -19,7 +19,10 @@
 
 <body>
 
+  <!-- <a name="inicio" /> -->
+
   <header>
+
     <h1>Pablo Scherpa <span>Freelancer</span> </h1>
     <!-- <h6>Full Stack Developer</h6> -->
   </header>
@@ -29,7 +32,6 @@
       <a class="aInicio" href="#">Inicio</a>
       <a class="aServicios" href="#misServicios">Servicios</a>
       <a class="aSobreMi" href="#sobreMi">Sobre Mi</a>
-      <!-- <a href="#">Contacto</a> -->
     </nav>
   </div>
 
@@ -59,7 +61,9 @@
 
     <a name="misServicios" />
 
-    <h2>Mis Servicios</h2>
+    <a class="inicio" href="#">
+      <h2 class="misServicios">Mis Servicios</h2>
+    </a>
 
     <div class="servicios">
 
@@ -167,7 +171,9 @@
     <!--Servicios-->
     <a name="sobreMi" />
 
-    <h2>Sobre Mi</h2>
+    <a class="inicio" href="#">
+      <h2 class="sobreMi">Sobre Mi</h2>
+    </a>
 
     <div class="servicios">
 
@@ -259,9 +265,12 @@
   </main>
 
   <section class="contactoForm">
-    <h2 class="contacto">Contacto</h2>
 
     <a name="contactoForm" />
+
+    <a class="inicio" href="#">
+      <h2 class="contacto">Contacto</h2>
+    </a>
 
     <form id="formulario" class="formulario" action="https://formspree.io/f/mgeqwaar" method="POST">
 
@@ -344,6 +353,9 @@
   <!--Pie de Pagina-->
 
   <script src="/js/sendToEmail.js"></script>
+  <script src="/js/h2MisServicios.js"></script>
+  <script src="/js/h2SobreMi.js"></script>
+  <script src="/js/h2Contacto.js"></script>
 
 </body>
 

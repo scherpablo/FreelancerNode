@@ -48,6 +48,10 @@ body {
 }
 
 /*Topografia*/
+a.inicio {
+    text-decoration: none;
+}
+
 h1{
     font-size: 3.8rem; 
     color: var(--verde);                                             
@@ -69,6 +73,11 @@ h2.contacto {
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--blanco)
+}
+
+h2.misServicios:hover,
+h2.sobreMi, h2.contacto {
+    cursor: pointer;
 }
 
 h2 span {
@@ -113,8 +122,7 @@ h1, h2, h3 {
 
 .nav-secundario {
     display: flex;
-    flex-direction: column;  
-    /* border: .2rem solid var(--verde); */
+    flex-direction: column;      
 }
 
 .nav-primario a, .nav-secundario a {
