@@ -310,6 +310,10 @@ legend.tituloformulario {
     margin-bottom: 2rem;
 }
 
+div.g-recaptcha {
+    width: 20rem;
+}
+
 /*Display Grid a los Input*/
 
 @media (min-width: 768px) {
